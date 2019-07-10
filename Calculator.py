@@ -1,3 +1,12 @@
+print("Calculaor program.")
+operatr = [
+    "+ = Addition",
+    "- = Subtraction",
+    "/ = Division",
+    "* = Multiplication"
+]
+for row in operatr:
+    print(row)
 a = 1
 while a <= 2:
     try:
