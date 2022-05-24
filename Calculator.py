@@ -25,6 +25,7 @@ print(f"          {Fore.RED}* {Fore.WHITE}= Multiplication")
 print(f"{Fore.BLUE}======================================")
 print(f"{Fore.BLUE}=   {Fore.WHITE}Input your number to calculate {Fore.BLUE}  =")
 print(f"{Fore.BLUE}======================================")
+
 try:
     a = 1
     while a < 2:
@@ -50,6 +51,11 @@ try:
         else:
             print(f"{Fore.RED}Invalid input! Please try again!")
             print(f"{Fore.BLUE}======================================")
+except ValueError:
+    print(f"{Fore.BLUE}======================================")
+    print(f"{Fore.RED}Invalid input! Please try again!")
+    print(f"{Fore.BLUE}======================================")
 except ZeroDivisionError:
-    print("The result is 0")
+    print(f"{Fore.BLUE}======================================")
+    print(f"{Fore.RED}Invalid input! Please try again!")
     print(f"{Fore.BLUE}======================================")
