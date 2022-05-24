@@ -57,5 +57,5 @@ except ValueError:
     print(f"{Fore.BLUE}======================================")
 except ZeroDivisionError:
     print(f"{Fore.BLUE}======================================")
-    print(f"{Fore.RED}Invalid input! Please try again!")
+    print(f"{Fore.RED}Result is 0")
     print(f"{Fore.BLUE}======================================")
