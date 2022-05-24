@@ -1,7 +1,8 @@
+import os
 import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
-
+os.system("cls")
 """
  => Old Version
 
